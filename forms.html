@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="accept/">
+        <div>
+           <label for="Username">Username : </label>
+           <input type="text" placeholder="Username" id="Username" name="user"/>
+        </div>
+       
+        
+        <div>
+          <lable for="password">Password : </lable>
+          <input type="password" placeholder="password" id="password" name="pass" />
+        </div>
+    </form>
+        
+        <div>
+            <label for="age"> Age : </label>
+            <input type="number" placeholder="age" id="age" />
+        </div> 
+          
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+         <hr/>
+
+        <form action="https://www.google.com/search">
+            <input type="text" placeholder="search on google" name="q"/>
+            <button>search</button>
+            
+        </form>
+
+        <hr/>
+        <form action="https://www.youtube.com/results">
+             <input type="text" placeholder="search on youtube" name="search_query"/>
+             <button>search</button>
+        </form>
+        
+   
+</body>
+</html>
+ <hr/>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+         <input type="checkbox" id="age" name="age" />
+         <label for="age">I am 18+</label>
+
+        </div>
+         
+
+         <br/>
+
+        <div>
+         <input type="radio" name="fruit" id="apple" value="apple" />
+         <label for="apple">apple<label>
+         <input type="radio" name="fruit" id="mango" value="mango" />
+         <label for="apple">mango<label>
+         <input type="radio" name="fruit" id="banana" value="banana" />
+         <label for="apple">banana<label>
+        </div>
+         
+
+
+         <br/>
+        <div>
+          Choose a subject
+         <input type="checkbox" name="subjects" id="maths" value="maths"/>
+         <label for="maths">maths</label>
+         <input type="checkbox" name="subjects" id="english" value="eng"/>
+         <label for="maths">english</label>
+         <input type="checkbox" name="subjects" id="science" value="sci"/>
+         <label for="maths">science</label>
+         <input type="checkbox" name="subjects" id="hindi" value="hin"/>
+         <label for="maths">hindi</label>
+        </div>
+
+         <br/>
+
+
+        <div>
+           Choose your profession
+           <select name="profession" id="profession">
+            <option>Select any one</option>
+            <option value="stu">Student</option>
+            <option value="teach">Teacher</option>
+            <option value="dev">Devloper</option>
+           </select>
+        </div>
+
+        <div>
+            <label for="vol">Volume</label>
+            <input type="range" name="vol" id="vol" min="0" max="100" step="5" />
+        </div>
+          <br/>
+          <label for="feedback">Please give your valueable feedback here : </label>
+          <textarea id="feedback" name="feedback"></textarea>
+
+
+          <br/>
+         <button>Submit</button>
+    </form>
+</body>
+</html>
